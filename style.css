@@ -45,7 +45,7 @@ video {
   color: black;
   margin: 0 auto;
   padding: 25px 50px;
-  border-radius: 5px;
+  border-radius: 15px;
   z-index: 2;
   display: flex;
   justify-content: center;
@@ -111,7 +111,7 @@ button:hover {
 }
 
 button:active {
-  transform: translateY(1px);
+  transform: translateY(2px);
 }
 
 /* Countdown */
