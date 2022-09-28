@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap');
 html {
   box-sizing: border-box;
 }
@@ -10,7 +9,7 @@ body {
   overflow-y: hidden;
   display: flex;
   align-items: center;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Courier Prime', sans-serif;
 }
 
 /* Video Background */
@@ -58,10 +57,10 @@ video {
 }
 
 h1 {
-  font-size: 35px;
+  font-size: 30px;
   text-align: center;
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 /* Form */
@@ -70,8 +69,7 @@ h1 {
 }
 
 label {
-  font-weight: bold;
-  margin-left: 10px;
+  display: none;
 }
 
 input {
@@ -82,7 +80,7 @@ input {
   border-radius: 20px;
   background: #fff;
   outline: none;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Courier Prime', sans-serif;
 }
 
 /* Button */
@@ -101,7 +99,7 @@ button {
   transition: all 0.3s ease 0s;
   cursor: pointer;
   outline: none;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Courier Prime', sans-serif;
 }
 
 button:hover {
