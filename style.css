@@ -46,6 +46,7 @@ video {
   margin: 0 auto;
   padding: 25px 50px;
   border-radius: 15px;
+  border: 2px solid #000;
   z-index: 2;
   display: flex;
   justify-content: center;
