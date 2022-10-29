@@ -35,7 +35,7 @@ video {
   top: 0;
   height: 100vh;
   width: 100vw;
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.25);
 }
 
 /* Container */
@@ -46,11 +46,11 @@ video {
   margin: 0 auto;
   padding: 25px 50px;
   border-radius: 50px;
-  border: 2px solid #000;
+  border: 2px solid #ddd;
   z-index: 2;
   display: flex;
   justify-content: center;
-  background: rgba(255, 255, 255, 0.75);   
+  background: rgba(255, 255, 255, 0.75);
 }
 
 .input-container {
@@ -88,13 +88,10 @@ input {
 /* Button */
 button {
   width: 100%;
-  padding: 0.8em 3em;
+  padding: 1em;
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 2.5px;
-  font-weight: 500;
-  color: #000;
-  background-color: #fff;
   border: none;
   border-radius: 45px;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
@@ -171,7 +168,7 @@ li span {
     height: 100vh;
     width: 100vw;
   }
-  
+
   video {
     object-fit: cover;
     margin-top: -1px;
@@ -196,15 +193,6 @@ li span {
 
   .form {
     width: unset;
-  }
-
-  button {
-    width: 97%;
-    padding: 1em;
-  }
-
-  input {
-    width: 93%;
   }
 
   h1 {
