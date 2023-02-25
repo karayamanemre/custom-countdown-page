@@ -1,3 +1,4 @@
+@import url('https://use.typekit.net/vus8zic.css');
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap');
 
 html {
@@ -10,7 +11,7 @@ body {
   overflow-y: hidden;
   display: flex;
   align-items: center;
-  font-family: 'Courier Prime', sans-serif;
+  font-family: 'basic-sans', 'Courier Prime', sans-serif;
 }
 
 /* Video Background */
@@ -46,7 +47,7 @@ video {
   margin: 0 auto;
   padding: 25px 50px;
   border-radius: 50px;
-  border: 2px solid #ddd;
+  border: 2px solid #999;
   z-index: 2;
   display: flex;
   justify-content: center;
